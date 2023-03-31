@@ -1,0 +1,51 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+body a {
+    text-decoration: none;
+}
+
+body li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-width: 1500px;
+    min-height: 150px;
+    background-color: rgb(247, 190, 106);
+}
+
+.header-search {
+    background: transparent;
+    border: none;
+}
+
+.site-navigation {
+    display: flex;
+}
+
+.site-navigation li {
+    /* margin: auto; */
+}
+
+.product-items{
+    min-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-items img{
+    background-color: rgb(247, 190, 106);
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+}
+
+img {
+    max-width: 100%;
+}
