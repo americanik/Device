@@ -18,7 +18,6 @@ body li {
 }
 
 .header {
-    /* bruh */
     height: 300px;
     background-color: rgb(243, 223, 136);
     margin-top: 25px;
@@ -32,19 +31,26 @@ body li {
 
 .header-logo {
     position: absolute;
-    margin-left: 30px;
-    margin-top: -20px
-
+    margin-left: 60px;
+    margin-top: -29px;
+    font-size: 50px;
 }
+
+
+.bold-text {
+    font-weight: 800;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
 
 .site-navigation {
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: absolute;
     align-items: center;
-
+    padding-top: 20px;
 }
-
 
 .site-navigation a{
     color: inherit;
@@ -54,8 +60,28 @@ body li {
     margin-right: 25px;
 }
 
+.img-login {
+    padding-left: 250px;
+}
+
+.img-comparison{
+    padding-left: 230px;
+}
+
+.img-catalog {
+    padding-left: 5px;
+}
+
+.button-delivery {
+    padding-left: 235px;
+}
+
+.button-contacts {
+    padding-left: 160px;
+}
+
 .header-navigation {
-    padding-top: 25px;
+    padding-top: 5px;
 }
 
 
@@ -82,9 +108,12 @@ img {
 }
 
 .wrapper-first-line {
-    margin-bottom: 50px;
+    margin-bottom: 75px;
 }
 
+.wrapper-first-line a{
+    text-transform: none;
+}
 
 .monopod {
     position: absolute;
