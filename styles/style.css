@@ -165,7 +165,10 @@ img {
 }
 
 .button-more-info {
+    display: flex;
+    justify-content: space-around;
     background-color: rgb(243, 223, 136);
-    width: 50px;
+    width: 250px;
     color: black;
+    text-align: center;
 }
