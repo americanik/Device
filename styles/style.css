@@ -65,7 +65,7 @@ body li {
 }
 
 .img-comparison{
-    padding-left: 230px;
+    padding-left: 260px;
 }
 
 .img-catalog {
@@ -124,4 +124,48 @@ img {
 
 .slide-wrapper h2{
     margin-left: 500px;
+}
+
+.slogan-ben {
+    font-size: 40px;
+    position: absolute;
+    padding-left: 570px;
+    margin-top: -76px;
+    text-transform: none;
+    font-weight: 800;
+} 
+.slogo-span {
+    border-top: solid white;
+    border-width: 7px;
+    width: 100px;
+    position: absolute;
+    margin-left: 580px;
+    margin-top: -120px;
+}
+
+.product p{
+    width: 500px;
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 35px;
+    line-height: 30px;
+    text-transform: none;
+    letter-spacing: .01em;
+    font-size: 15px;
+}
+
+.switches {
+    display: flex;
+    padding-left: 570px;
+    padding-top: 150px;
+}
+
+.first-switch {
+    margin-left: 150px;
+}
+
+.button-more-info {
+    background-color: rgb(243, 223, 136);
+    width: 50px;
+    color: black;
 }
