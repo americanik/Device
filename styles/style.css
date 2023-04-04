@@ -8,9 +8,9 @@ body li {
     list-style-type: none;
 }
 
-.header-navigation {
+.header {
     width: 1200px;
-    height: 200px;
+    height: 320px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -22,16 +22,26 @@ body li {
     color: black;
 }
 
+
 .header-search {
     background: transparent;
     border: none;
 } 
 
+.header-logo {
+    position: absolute;
+    top: -7px;
+    left: 385px;
+    font-size: 45px;
+}
+
 
 .site-navigation {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
     margin-bottom: 50px;
+    padding-top: 50px;
 }
 
 .site-navigation a {
@@ -44,6 +54,7 @@ body li {
 }
 
 .main-navigation a {
+    font-size: 18px;
     letter-spacing: 0.1em;
     font-weight: bold;
 }
@@ -57,19 +68,26 @@ body li {
 }
 
 .button-comparison {
-    margin-left: 320px;
+    margin-left: 300px;
 }
 
 .button-basket {
-    margin-right: 50px;
+    margin-right: 45px;
 }
 
 .button-delivery {
     margin-left: 100px;
+    
 }
 
 .button-garanty {
-    margin-right: 150px;
+    right: 150px;
+    position: relative;
+}
+
+.button-contacts {
+    position: relative;
+    right: 45px;
 }
 
 .img-catalog {
@@ -77,5 +95,98 @@ body li {
 }
 
 
+/* header закончился */
 
-/* letter-spacing: .2em; */
+.main {
+    width: 1200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.monopod {
+    position: relative;
+    top: -120px;
+    left: 70px;
+}
+
+.slogan-ben {
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    text-transform: none;
+    top: -80px;
+}
+
+.span-info {
+    background-color: rgb(243, 223, 136);
+}
+
+.button-more-info {
+    text-decoration: none;
+    color: black;
+    letter-spacing: .4em;
+    font-weight: bold;
+}
+
+
+.advertising {
+    position: relative;
+    top: -490px;
+    left: 580px;
+    margin-bottom: 150px;
+}
+
+.characters {
+    position: relative;
+    top: -75px;
+}
+
+.characters p {
+    text-transform: none;
+    font-size: 17px;
+}
+
+
+.switches {
+    display: flex;
+    margin-bottom: 75px;
+}
+
+.switches img {
+    width: 15px;
+    padding-left: 1x;
+}
+
+.switches-div {
+    width: 50%;
+    margin-top: 75px;
+}
+
+.first-switch {
+    margin-left: 250px;
+    padding-right: 35px;
+}
+
+.second-switch {
+    padding-right: 35px;
+}
+
+.third-switch {
+    padding-right: 35px;
+}
+
+.table-characters th{
+    text-transform: none;
+    font-size: 34px;
+    font-weight: normal;
+    text-align: center;
+    width: 150px;
+}
+
+.table-characters td {
+    font-size: 15px;
+    text-align: center;
+    text-transform: none;
+    padding: 15px 0 0;
+}
