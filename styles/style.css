@@ -225,3 +225,85 @@ body li {
     padding-top: 35px;
     background-color: rgb(243, 223, 136);
 }
+
+.gadget-list {
+    margin-bottom: 150px;
+}
+
+/* features end */
+
+
+.delivery {
+    position: relative;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+}
+
+.delivery img {
+    position: absolute;
+    top: -25px;
+    left: 950px;
+}
+
+.delivery-list {
+    display: inline-block;
+    border-right: 5px solid black;
+    height: 250px;
+}
+
+.delivery-list a {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(243, 223, 136);
+    font-weight: bold;
+}
+
+.delivery-div {
+    position: relative;
+    top: -55px;
+}
+
+.wrapper-delivery {
+    display: inline-block;
+    position: absolute;
+    top: 190px;
+    margin: -250px;
+    left: 600px;
+    width: 500px;
+}
+
+.wrapper-delivery h2 {
+    font-weight: bold;
+    text-transform: none;
+    font-size: 40px;
+}
+
+.wrapper-delivery p {
+    text-transform: none;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.servies-item {
+    margin-top: 35px;
+}
+
+/* delivery end */
+
+.img-list-spons {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.sponsors-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* end sponsori*/
+
+.contacts {
+
+}
