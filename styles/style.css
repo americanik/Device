@@ -17,6 +17,10 @@ body li {
     background-color: rgb(243, 223, 136);
 }
 
+.header-navigation {
+    position: relative;
+}
+
 .header-navigation a {
     text-decoration: none;
     color: black;
@@ -30,8 +34,8 @@ body li {
 
 .header-logo {
     position: absolute;
-    top: -7px;
-    left: 385px;
+    top: -55px;
+    left: 40px;
     font-size: 45px;
 }
 
@@ -104,6 +108,11 @@ body li {
     margin-right: auto;
 }
 
+.features {
+    position: relative;
+    margin-bottom: 15px;
+}
+
 .monopod {
     position: relative;
     top: -120px;
@@ -131,8 +140,8 @@ body li {
 
 
 .advertising {
-    position: relative;
-    top: -490px;
+    position: absolute;
+    top: 1px;
     left: 580px;
     margin-bottom: 150px;
 }
@@ -179,14 +188,40 @@ body li {
 .table-characters th{
     text-transform: none;
     font-size: 34px;
-    font-weight: normal;
+    font-weight:100;
     text-align: center;
-    width: 150px;
 }
 
 .table-characters td {
     font-size: 15px;
     text-align: center;
     text-transform: none;
-    padding: 15px 0 0;
+    padding: 15px 50px 0;
+}
+
+/* advertising закончен */
+
+.product-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-items a {
+    text-transform: none;
+    text-decoration: none;
+    color: black;
+}
+
+.gadget-item img {
+    width: 90px;
+    height: 90px;
+    /* background-color: rgb(243, 223, 136); */
+}
+
+.wrapper-img {
+    text-align: center;
+    width: 150px;
+    height: 120px;
+    padding-top: 35px;
+    background-color: rgb(243, 223, 136);
 }
